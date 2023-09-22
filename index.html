@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Existuje mimozemský život</title>
+		<meta name="color-scheme" content="only dark" />
+		<style>
+			*,
+			*::before,
+			*::after {
+				box-sizing: border-box;
+			}
+			body {
+				font-family: sans-serif;
+				text-align: center;
+				margin: 0;
+				padding: 2rem;
+				min-height: 100vh;
+				min-height: 100svh;
+				display: grid;
+				align-items: center;
+				justify-content: center;
+				position: relative;
+				color: #ffffff;
+				background-color: #000000;
+			}
+			body::before {
+				content: '';
+				position: fixed;
+				inset: 0;
+				z-index: -1;
+				background-image: url('./background.jpg');
+				background-size: cover;
+				background-position: center;
+				opacity: 0.07;
+			}
+			.title {
+				display: none;
+			}
+			.answer {
+				margin: 0;
+				font-size: 20vw;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="title">Existuje mimozemský život</h1>
+		<p class="answer">Ne</p>
+	</body>
+</html>
